@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+.form {
+    background-color: rgb(235, 16, 16);
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#descForm, #statusForm{
+ width: 100%;
+}
+.descriptionInput, .statusInput {
+    padding: 10px 0px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+   
+}
+.descriptionInput:focus , .statusInput, .add:focus{
+    outline: none;
+}
+.add {
+    align-self: flex-end;
+    margin-top: 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.tasks {
+    background-color: rgb(83, 172, 236);
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 20px;
+    width: 100%;
+    
+}
+table{
+    border-collapse: collapse;
+}
+table,th{
+    border: 1px solid;
+  }
+td{
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.noHead{
+    width: 2%;
+}
+.noHead, .descHead, .statusHead{
+    text-align: left;
+    
+}
+
+
